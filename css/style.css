@@ -1,0 +1,257 @@
+html {
+  
+    scroll-behavior: smooth;
+}
+
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* section */
+.colored-section {
+    background-color: #ff4c64;
+    color: #fff;
+}
+
+.white-section {
+    color: black;
+    background-color: white;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+    color: white;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+p {
+     color: rgb(94, 94, 94);
+     font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Nav */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+
+.navbar {
+     padding: 0 0 5.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+.nav-link {
+    font-size: 1.2rem;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+/* Button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* title img  */
+
+ .title-image {
+     width: 60%;
+     transform: rotate(25deg);
+     position: absolute;
+     right: 10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ /* feature */
+
+#features {
+   
+   
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+
+}
+
+.feature-box i {
+    color: #db5163;
+}
+
+.feature-box i:hover {
+    color: #be4810;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* testimonials */
+
+#testimonials {
+    background-color: #db5163;
+    text-align: center;
+    
+}
+
+.testimonial-img {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: 16px;
+
+
+}
+
+.testimonial-text {
+    line-height: 2;
+}
+
+.carousel-item {
+    
+}
+
+#press {
+    background-color: #db5163;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 2% 3%;
+}
+
+
+
+
+
+/*  CTa */
+
+#cta {
+   
+    text-align: center;
+}
+
+.cta-heading {
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* footer section? */
+
+#footer {
+    
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    .cta-heading {
+        font-size: 100%;
+    }
+}
